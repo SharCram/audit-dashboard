@@ -3,7 +3,7 @@ import React from 'react'
 const Office_placeholder = () => {
   return (
     <div>
-      
+      Office_placeholder
     </div>
   )
 }
