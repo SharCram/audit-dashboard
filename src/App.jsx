@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Navbar, Sidebar } from './components'
+import { Topbar, Sidebar } from './components'
 
 import {useStateContext} from './contexts/ContextProvider'
 import { Dashboard, History, Offices } from './pages'
@@ -31,7 +31,7 @@ const App = () => {
             {/* NAVBAR */}
             <div className='bg-main-bg fixed md:static navbar w-full'>
               {/* TODO: navbar */}
-              <Navbar />
+              <Topbar />
             </div>
 
             {/* PAGES */}
